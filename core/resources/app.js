@@ -1,4 +1,4 @@
-import Ant from '@/Ant'
+import Ant from './Ant'
 
 window.Ant = new Ant(window.config)
 

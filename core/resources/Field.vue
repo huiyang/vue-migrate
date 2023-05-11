@@ -1,10 +1,8 @@
 <template>
   <div>
-    <div>
       Core
       {{ contentValue }}
       <input v-model="contentValue" />
-    </div>
   </div>
 </template>
 

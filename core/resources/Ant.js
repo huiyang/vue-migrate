@@ -1,4 +1,4 @@
-import { createApp } from 'vue'
+import { createApp, defineAsyncComponent } from 'vue'
 
 export default class Ant {
     constructor () {
@@ -17,7 +17,7 @@ export default class Ant {
             callback(this.vue, this.router, this.store)
         })
         
-        this.vue.component('custom-field', require('./Field').default)
+        this.vue.component('custom-field', defineAsyncComponent(() => import('./Field')))
 
        	this.vue.mount('#gravity')  
     }

@@ -2,19 +2,18 @@
   "name": "ant-vue3-addon",
   "private": true,
   "scripts": {
-      "dev": "npx mix",
-      "production": "npx mix --production",
-      "watch": "npx mix watch",
-      "postinstall": "touch ./node_modules/.metadata_never_index"
+    "dev": "npx mix",
+    "production": "npx mix --production",
+    "watch": "npx mix watch",
+    "postinstall": "touch ./node_modules/.metadata_never_index"
   },
   "dependencies": {
-      "@vue/compat": "3.2.45",
-      "vue": "3.2.45"
+    "vue": "3.2.45"
   },
   "devDependencies": {
-      "@vue/compiler-sfc": "3.2.45",
-      "laravel-mix": "^6.0.49",
-      "laravel-mix-vue3": "^0.7.0",
-      "vue-loader": "^17.1.0"
+    "@vue/compiler-sfc": "3.2.45",
+    "laravel-mix": "^6.0.49",
+    "laravel-mix-vue3": "^0.7.0",
+    "vue-loader": "^16.2.0"
   }
 }
